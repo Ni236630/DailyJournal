@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Daily Journal</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <header> <h2>Daily Journal</h2></header>
+        <main id="container">
+           
+            <form action = "">
+                <fieldset class ="journalForm">
+                
+                <label for="journalDate">Date of entry</label>
+                <input class= "dateInput" type="date" name="journalDate" id="journalDate">
+                
+                
+                <label for="conceptsCovered">Concepts covered</label>
+                <input class ="coveredConcepts" type="text" name="conceptsCovered" id="conceptsCovered">
+                
+                
+                <label for="journalEntry">Journal Entry</label>
+                <textarea placeholder="Journal entry here..."  name="journalEntry" id="journalEntry"cols="30" rows="5"></textarea>
+                    
+                <label for="mood">Mood of the Day</label>
+                <select name="moods" id="moods">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="indifferent">Indifferent</option>
+                    <option value="impressed">Impressed</option>
+                    <option value="devastated">Devastated</option> 
+                   
+                </select>
+                <button type="submit">submit</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer></footer>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>
