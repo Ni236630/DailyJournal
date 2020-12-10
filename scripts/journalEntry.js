@@ -1,4 +1,4 @@
-export const journalEntryComponent = (entry) => {
+export const journalEntryCreator = (entry) => {
   return `
   
     <section id="entry--${entry.id}" class="journalEntry">
