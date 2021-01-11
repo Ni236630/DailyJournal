@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "journalDate": "07/24/2025",
+      "conceptsCovered": "HTML & CSS",
+      "journalEntry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+      "moods": "Ok"
+    },
+    {
+      "journalDate": "",
+      "conceptsCovered": "react",
+      "journalEntry": "Hello React, my old friend.",
+      "moods": "happy",
+      "id": 2
+    },
+    {
+      "journalDate": "2021-01-14",
+      "conceptsCovered": "react",
+      "journalEntry": "another react entry",
+      "moods": "happy",
+      "id": 3
+    }
+  ]
+}

@@ -4,13 +4,17 @@ import { journalEntryCreator } from "./journalEntry.js"
 
 const contentTarget = document.querySelector("#entryLog")
 
+/*
+
+Render entry list to the DOM
+
+*/
 
 const render = (entryArray) => {
-  const allEntriesToStrings = entryArray.map((entry) => journalEntryCreator(entry)).join("")
+  const allEntriesToStrings = entryArray.map(entry => journalEntryCreator(entry)).join("")
   
-  contentTarget.innerHTML += allEntriesToStrings
+  contentTarget.innerHTML = allEntriesToStrings
 }
-
 
 
 export const noteList = () => {
